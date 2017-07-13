@@ -7,6 +7,7 @@ from django.core.urlresolvers import reverse
 
 
 # Create your models here.
+# To create custom manager
 class PublishedManager(models.Manager):
 	"""docstring for PublishedManager"""
 	def get_queryset(self):
